@@ -189,8 +189,22 @@ div.axis_name {
     font-family: 'Equity', serif;
     display: inline-block;
     padding-bottom: 8.65pt;
-    word-wrap: break-word;
-    hyphens: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+    div.axis_name {
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 480px) {
+    div.axis_name {
+        font-size: 10pt;
+    }
 }
 .spacer {
     display: flex;
