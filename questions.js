@@ -208,7 +208,7 @@ questions = [
         }
     }, 
     {
-        "question": "A law passed right after the American Civil War should be read with that strong, equality-securing sense they were understood to have when adopted, even (especially!) if times or views change.",
+        "question": "A law passed right after the American Civil War should be read with that strong, equality-securing sense they were understood to have when adopted, even if—especially if—times or views change.",
         "effect": {
             "sorc": 0,
             "cons": 0,
