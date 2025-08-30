@@ -75,16 +75,23 @@ p.value {
     line-height: 1.3;
     letter-spacing: 0.03em;
     font-family: 'Equity', serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Target only the colored value labels, not SVG icons */
+p.value b {
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
-    p.value {
+    p.value b {
         font-size: 18pt;
     }
 }
 
 @media (max-width: 480px) {
-    p.value {
+    p.value b {
         font-size: 16pt;
     }
 }
