@@ -48,6 +48,18 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
+    // Shuffle function to randomize array order
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+    
+    // Randomize questions order
+    shuffle(questions);
+    
     var max_sorc, max_cons, max_time, max_prec, max_remed, max_post, max_separ, max_form; // Max possible scores
     max_sorc = max_cons = max_time = max_prec = max_remed = max_post = max_separ = max_form = 0;
     let sorc_array = new Array(questions.length);

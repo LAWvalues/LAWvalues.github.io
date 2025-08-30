@@ -195,7 +195,7 @@ ideologies = [
         }
     },
     {
-        "name": "Balanced Jurisprudence",
+        "name": "Pragmatist",
         "stats": {
             "sorc": 50,   // Moderate
             "cons": 50,   // Moderate
