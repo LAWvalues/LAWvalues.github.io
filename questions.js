@@ -208,7 +208,7 @@ questions = [
         }
     }, 
     {
-        "question": "A law passed right after the American Civil War should be read with that strong, equality-securing sense they were understood to have when adopted, even if times or views change.",
+        "question": "A law passed right after the American Civil War should be read with that strong, equality-securing sense they were understood to have when adopted, even (especially!) if times or views change.",
         "effect": {
             "sorc": 0,
             "cons": 0,
@@ -234,7 +234,7 @@ questions = [
         }
     },    
     {
-        "question": "When a conservative judge in Texas, or a progressive judge in California, find a law is unlawful, everyone else should have to bend the knee to their whims.",
+        "question": "When a conservative judge in Texas, or a progressive judge in California, finds a law is unlawful, everyone else should have to bend the knee to their whims.",
         "effect": {
             "sorc": 0,
             "cons": 0,
