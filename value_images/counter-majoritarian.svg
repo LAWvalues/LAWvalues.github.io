@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200"
+   height="200"
+   viewBox="0 0 52.916668 52.916666"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="counter-majoritarian.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <rect
+       x="10"
+       y="144.5"
+       width="191.5"
+       height="59.5"
+       id="rect7" />
+    <rect
+       x="12.5"
+       y="146"
+       width="176.5"
+       height="43"
+       id="rect6" />
+    <rect
+       x="10"
+       y="146"
+       width="178"
+       height="43"
+       id="rect5" />
+    <rect
+       x="9.899495"
+       y="144.24978"
+       width="181.01934"
+       height="46.669048"
+       id="rect4" />
+    <rect
+       x="8.8388348"
+       y="143.89623"
+       width="182.08"
+       height="47.376154"
+       id="rect3" />
+    <rect
+       x="9.899495"
+       y="143.89623"
+       width="181.01934"
+       height="48.083261"
+       id="rect2" />
+    <rect
+       x="10.25"
+       y="144"
+       width="180.5"
+       height="46.25"
+       id="rect1" />
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect4658"
+       is_visible="true"
+       yy="true"
+       xx="true"
+       bendpath1="m -199.08406,108.42369 h 7.0057"
+       bendpath2="m -192.07836,108.42369 v 6.75242"
+       bendpath3="m -199.08406,115.17611 h 7.0057"
+       bendpath4="m -199.08406,108.42369 v 6.75242" />
+    <inkscape:path-effect
+       effect="bend_path"
+       id="path-effect4656"
+       is_visible="true"
+       bendpath="m -192.00142,114.60623 c 2.12577,-0.53066 4.48261,0.85111 7.0057,0"
+       prop_scale="1"
+       scale_y_rel="false"
+       vertical="false"
+       bendpath-nodetypes="cc" />
+    <inkscape:path-effect
+       effect="bounding_box"
+       id="path-effect4654"
+       is_visible="true"
+       linkedpath=""
+       visualbounds="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="194.5"
+     inkscape:cy="114.25"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2400"
+     inkscape:window-height="1529"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:object-nodes="false"
+     units="px"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(39.608708,-92.411388)">
+    <rect
+       y="92.411385"
+       x="-39.608707"
+       height="52.916668"
+       width="52.916668"
+       id="rect4485"
+       style="fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.909449;paint-order:normal"
+       rx="3.96875"
+       ry="3.96875" />
+    <rect
+       style="fill:#00c2b2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.909449;paint-order:normal"
+       id="rect4487"
+       width="47.625"
+       height="47.625"
+       x="-36.962875"
+       y="95.05722"
+       rx="2.6458333"
+       ry="2.6458333" />
+    <path
+       style="fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.909449;paint-order:normal"
+       d="m -38.153499,129.45306 v 8.33438 c 0,3.07816 2.478088,5.55624 5.55625,5.55624 H 6.2965 c 3.078162,0 5.55625,-2.47808 5.55625,-5.55624 v -8.33438 z"
+       id="rect5205-3"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g7"
+       transform="matrix(0.11578572,0,0,0.11578572,-36.810251,96.762538)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-40.799333,92.146805)"
+       id="text6"
+       style="font-weight:bold;font-size:21.3333px;font-family:'Equity Caps A';-inkscape-font-specification:'Equity Caps A Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);fill:#ffffff;fill-opacity:1"><tspan
+         x="10"
+         y="163.04164"
+         id="tspan3">COUNTER
+</tspan><tspan
+         x="10"
+         y="189.70826"
+         id="tspan4">MAJORITARIAN</tspan></text>
+    <path
+       d="m -13.395097,112.98942 a 7.7093269,7.7093269 0 1 0 0,-15.418653 7.7093269,7.7093269 0 0 0 0,15.418653 z m 0,3.38712 c -10.250048,0 -16.820904,5.65641 -16.820904,8.41045 v 5.14261 H 3.4258064 v -5.14261 c 0,-3.33054 -6.220676,-8.41045 -16.8209034,-8.41045 z"
+       id="path1"
+       style="fill:#222222;fill-opacity:1;stroke-width:1.52917" />
+  </g>
+</svg>

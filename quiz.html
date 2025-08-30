@@ -1,0 +1,135 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>LAWvalues Quiz</title>
+<link rel="icon" type="x-icon" href="value_images/atomandaether.png">
+<link rel="shortcut icon" type="x-icon" href="value_images/atomandaether.png">
+<meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body>
+<script type="application/javascript"
+        src="questions.js">
+</script>
+<h1>LAWvalues</h1>
+<hr>
+<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<p class="question" id="question-text"></p>
+<button class="button stronglyAgree" onclick="next_question( 1.0)">Strongly Agree</button> <br>
+<button class="button agree" onclick="next_question( 0.5)">Agree</button> <br>
+<button class="button neutral" onclick="next_question( 0.0)">Neutral/Unsure</button> <br>
+<button class="button disagree" onclick="next_question(-0.5)">Disagree</button> <br>
+<button class="button stronglyDisagree" onclick="next_question(-1.0)">Strongly Disagree</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
+<button class="small_button_off" id="back_button_off">Back</button><br>
+
+<!-- Website visit statistics - no personal information is collected! -->
+<script type="text/javascript">
+var sc_project=11325211;
+var sc_invisible=1;
+var sc_security="fd9f0659";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
+stats"></a></div></noscript>
+
+<!-- JavaScript for the test itself -->
+<script>
+    var max_sorc, max_cons, max_time, max_prec, max_remed, max_post, max_separ, max_form; // Max possible scores
+    max_sorc = max_cons = max_time = max_prec = max_remed = max_post = max_separ = max_form = 0;
+    let sorc_array = new Array(questions.length);
+    let cons_array = new Array(questions.length);
+    let time_array = new Array(questions.length);
+    let prec_array = new Array(questions.length);
+    let remed_array = new Array(questions.length);
+    let post_array = new Array(questions.length);
+    let separ_array = new Array(questions.length);
+    let form_array = new Array(questions.length);
+    var qn = 0; // Question number
+    init_question();
+    for (var i = 0; i < questions.length; i++) {
+        max_sorc += Math.abs(questions[i].effect.sorc)
+        max_cons += Math.abs(questions[i].effect.cons)
+        max_time += Math.abs(questions[i].effect.time)
+        max_prec += Math.abs(questions[i].effect.prec)
+        max_remed += Math.abs(questions[i].effect.remed)
+        max_post += Math.abs(questions[i].effect.post)
+        max_separ += Math.abs(questions[i].effect.separ)
+        max_form += Math.abs(questions[i].effect.form)
+    }
+    function init_question() {
+        document.getElementById("question-text").innerHTML = questions[qn].question;
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        if (qn == 0) {
+            document.getElementById("back_button").style.display = 'none';
+            document.getElementById("back_button_off").style.display = 'block';
+        } else {
+            document.getElementById("back_button").style.display = 'block';
+            document.getElementById("back_button_off").style.display = 'none';
+        }
+
+    }
+
+    function next_question(mult) {
+        sorc_array[qn] = mult*questions[qn].effect.sorc
+        cons_array[qn] = mult*questions[qn].effect.cons
+        time_array[qn] = mult*questions[qn].effect.time
+        prec_array[qn] = mult*questions[qn].effect.prec
+        remed_array[qn] = mult*questions[qn].effect.remed
+        post_array[qn] = mult*questions[qn].effect.post
+        separ_array[qn] = mult*questions[qn].effect.separ
+        form_array[qn] = mult*questions[qn].effect.form
+        qn++;
+        if (qn < questions.length) {
+            init_question();
+        } else {
+            results();
+        }
+    }
+
+    function prev_question() {
+        if (qn == 0) {
+            return;
+        }
+        qn--;
+        init_question();
+    }
+
+    function calc_score(score,max) {
+        return (100*(max+score)/(2*max)).toFixed(1)
+    }
+
+    function results() {
+        let final_sorc = sorc_array.reduce((a, b) => a + b, 0)
+        let final_cons = cons_array.reduce((a, b) => a + b, 0)
+        let final_time = time_array.reduce((a, b) => a + b, 0)
+        let final_prec = prec_array.reduce((a, b) => a + b, 0)
+        let final_remed = remed_array.reduce((a, b) => a + b, 0)
+        let final_post = post_array.reduce((a, b) => a + b, 0)
+        let final_separ = separ_array.reduce((a, b) => a + b, 0)
+        let final_form = form_array.reduce((a, b) => a + b, 0)
+        location.href = `results.html`
+            + `?sorc=${calc_score(final_sorc,max_sorc)}`
+            + `&cons=${calc_score(final_cons,max_cons)}`
+            + `&time=${calc_score(final_time,max_time)}`
+            + `&prec=${calc_score(final_prec,max_prec)}`
+            + `&remed=${calc_score(final_remed,max_remed)}`
+            + `&post=${calc_score(final_post,max_post)}`
+            + `&separ=${calc_score(final_separ,max_separ)}`
+            + `&form=${calc_score(final_form,max_form)}`
+    }
+</script>
+</body>
